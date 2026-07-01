@@ -108,10 +108,6 @@ async function removeProduct(id) {
     return product;
 }
 
-// =========================
-// Routes
-// =========================
-
 app.get("/products", async (req, res) => {
     try {
         const products = await listProducts();
