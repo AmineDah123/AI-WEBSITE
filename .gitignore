@@ -3,9 +3,16 @@ node_modules/
 backend/node_modules/
 frontend/node_modules/
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
 # environment variables
 .env
 backend/.env
+python/.env
 
 # build output
 frontend/dist/
